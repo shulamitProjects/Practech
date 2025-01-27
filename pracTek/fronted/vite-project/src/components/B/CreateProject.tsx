@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/CreateProject.css';
+import '../B/styles/CreateProject.css';
 
 export default function CreateProjectForm() {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import '../B/styles/AddCustomers.css';
 
 export default function AddedCustomers() {
   const customers = Array(10).fill({

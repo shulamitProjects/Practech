@@ -1,4 +1,5 @@
 import React from "react";
+import '../B/styles/Success.css';
 
 export default function SuccessPage() {
   return (

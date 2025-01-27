@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/SingUp.css';
+import '../B/styles/SingUp.css';
 
 import { FaGoogle, FaApple, FaFacebook } from "react-icons/fa";
 

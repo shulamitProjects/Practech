@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/AddCustomers.css';
+import '../B/styles/SingUp.css';
 
 export default function AddCustomerForm() {
   return (
