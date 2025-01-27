@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import '../styles/SingUp.css';
 
 import { FaGoogle, FaApple, FaFacebook } from "react-icons/fa";
@@ -76,3 +77,14 @@ export default function SignupPage() {
     </div>
   );
 }
+=======
+
+const SignUp: React.FC = () => {
+    return (
+        <div>Sign Up Page</div>
+    )
+
+};
+
+export default SignUp;
+>>>>>>> 45c6c4c77aa65eb12ac80621c0d2f5bac081f1e3
