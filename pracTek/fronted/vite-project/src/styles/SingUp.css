@@ -1,0 +1,141 @@
+.signup-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+  }
+  
+  .signup-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  @media (min-width: 768px) {
+    .signup-wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .signup-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf4ff;
+    padding: 2rem;
+  }
+  
+  .signup-left-content {
+    width: 75%;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo .icon {
+    font-size: 2rem;
+    color: #805ad5;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6b46c1;
+    margin-left: 0.5rem;
+  }
+  
+  .dashboard-image {
+    margin-bottom: 1.5rem;
+  }
+  
+  .signup-right {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+  }
+  
+  .password-note {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .checkbox-container span {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .checkbox-container a {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  .register-button {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .alternative-text {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 1.5rem 0;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-button {
+    background-color: #f3f4f6;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
