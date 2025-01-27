@@ -1,32 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignUp from "./components/SingUp";
-// import AboutPage from "./pages/AboutPage";
-// import NotFoundPage from "./pages/NotFoundPage";
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
 
 // function App() {
+//   const [count, setCount] = useState(0)
 
 //   return (
 //     <>
-
+    
 //     </>
 //   )
 // }
+
+// export default App
+
+
+import React from "react";
+import SetupSuccess from "./components/Success";
+
 const App: React.FC = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<SignUp />} />
-        {/* <Route path="/about" element={<AboutPage />} />
-        <Route path="*" element={<NotFoundPage />} /> */}
-      </Routes>
-    </Router>
+    <div>
+      <SetupSuccess />
+    </div>
   );
 };
 
-export default App
+export default App;
