@@ -1,27 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUp from "./components/SingUp";
-// import AboutPage from "./pages/AboutPage";
-// import NotFoundPage from "./pages/NotFoundPage";
+import CreateCompany from "./components/B/CreateCompany";
+import './App.css';
 
-// function App() {
-
-//   return (
-//     <>
-
-//     </>
-//   )
-// }
 const App: React.FC = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<SignUp />} />
+        <Route path="/createCompany" element={<CreateCompany />} />
         {/* <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
@@ -29,4 +17,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App
+export default App;
